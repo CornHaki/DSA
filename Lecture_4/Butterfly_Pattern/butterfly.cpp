@@ -43,7 +43,7 @@ int main(){
         for(int j=i; j>=0; j--){
             cout<<"*";
         }
-
+        // meaningful comment
         //spaces
         for(int j=0; j<2*(num-i-1); j++){
             cout<<" ";
