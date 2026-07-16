@@ -13,5 +13,10 @@ int main() {
     cout << ((time < 18) ? "Good day." : "Good evening.") << endl;
 
     // Tip: Use the ternary operator for short and simple conditions. For longer or more complex logic, the regular if...else statement is easier to read.
+
+    // Nested Ternary Operator
+    int number = 10;
+    string result2 = (number > 0) ? "Positive" : (number < 0) ? "Negative" : "Zero";
+    cout << result2 << endl;
     return 0;
 }
