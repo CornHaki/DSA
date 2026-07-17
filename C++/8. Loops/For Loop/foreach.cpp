@@ -13,5 +13,6 @@ int main() {
     for(int element : arr){
         cout << element << " ";
     }
+    cout << endl;
     return 0;
 }
