@@ -11,7 +11,7 @@ data_type array_name[array_size];
 using namespace std;
 int main() {
     // Declare and initialize an array of integers with size 5
-    int numbers[6] = {10, 20, 30, 40, 50, 60}; // The last element (60) will be ignored since the array size is 5
+    int numbers[5] = {10, 20, 30, 40, 50}; // The array size is 5, so only the first 5 elements will be initialized
 
     // Access and print the array elements
     cout << "Using for loop: " << endl;
@@ -41,5 +41,6 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
+
     return 0;
 }
