@@ -11,10 +11,34 @@ data_type array_name[array_size];
 using namespace std;
 int main() {
     // Declare and initialize an array of integers with size 5
-    int numbers[5] = {10, 20, 30, 40, 50};
+    int numbers[6] = {10, 20, 30, 40, 50, 60}; // The last element (60) will be ignored since the array size is 5
+
     // Access and print the array elements
+    cout << "Using for loop: " << endl;
     for(int i = 0; i < 5; i++){
         cout << numbers[i] << " "; // Print each element of the array
+    }
+
+    // Using while loop to access and print the array elements
+    cout << endl << endl << "Using while loop: " << endl;
+    int i = 0;
+    while(i < 5){
+        cout << numbers[i] << " ";
+        i++;
+    }
+
+    // Using do-while loop to access and print the array elements
+    cout << endl << endl << "Using do-while loop: " << endl;
+    i = 0;
+    do{
+        cout << numbers[i] << " ";
+        i++;
+    }while(i < 5);
+
+    // Using foreach loop to access and print the array elements
+    cout << endl << endl << "Using foreach loop: " << endl;
+    for(int num : numbers){
+        cout << num << " ";
     }
     cout << endl;
     return 0;
