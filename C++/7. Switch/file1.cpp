@@ -27,7 +27,7 @@ int main(){
         break;
         case 4: cout << "Thursday" << endl;
         break;
-        case 5: cout << "Friday";
+        case 5: cout << "Friday" << endl;
         break;
         case 6: cout << "Saturday";
         break;
