@@ -19,7 +19,7 @@ using namespace std;
 int main(){
     int day = 4;
     switch (day) {
-        case 1: cout << "Monday";
+        case 1: cout << "Monday" << endl;
         break;
         case 2: cout << "Tuesday";
         break;
