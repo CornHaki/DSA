@@ -21,7 +21,7 @@ int main(){
     switch (day) {
         case 1: cout << "Monday" << endl;
         break;
-        case 2: cout << "Tuesday";
+        case 2: cout << "Tuesday" << endl;
         break;
         case 3: cout << "Wednesday";
         break;
