@@ -29,7 +29,7 @@ int main(){
         break;
         case 5: cout << "Friday" << endl;
         break;
-        case 6: cout << "Saturday";
+        case 6: cout << "Saturday" << endl;
         break;
         case 7: cout << "Sunday";
         break;
