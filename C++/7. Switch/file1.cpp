@@ -31,7 +31,7 @@ int main(){
         break;
         case 6: cout << "Saturday" << endl;
         break;
-        case 7: cout << "Sunday";
+        case 7: cout << "Sunday" << endl;
         break;
         default: cout << "Invalid day";
     }
