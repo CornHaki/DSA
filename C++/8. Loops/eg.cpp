@@ -7,7 +7,7 @@ int main() {
     // Finally, we will divide the original number by 10 to remove the last digit.
     int number = 12345;
     int revNumber = 0;
-    while (number > 10){
+    while (number){
         // Extract the last digit of the number.
         int lastDigit = number % 10;
         // Add the last digit to the reversed number after multiplying the reversed number by 10.
