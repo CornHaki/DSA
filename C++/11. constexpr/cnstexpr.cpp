@@ -14,7 +14,7 @@ int main() {
     int x, y;
     cout << "Enter two numbers: ";
     cin >> x >> y;
-    int result = product(x, y);
-    std::cout << result << std::endl;
+    constexpr int result = product(x, y);
+    cout << result << endl;
     return 0;
 }
