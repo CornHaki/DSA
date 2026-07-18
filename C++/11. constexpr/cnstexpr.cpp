@@ -11,7 +11,10 @@ constexpr int product(int x, int y) {
     return x * y;
 }
 int main() {
-    int result = product(5, 10);
+    int x, y;
+    cout << "Enter two numbers: ";
+    cin >> x >> y;
+    int result = product(x, y);
     std::cout << result << std::endl;
     return 0;
 }
