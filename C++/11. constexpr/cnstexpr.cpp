@@ -15,7 +15,7 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> x >> y;
     // constexpr int result = product(x, y); this is wrong because x and y are not constant expressions, so the result cannot be evaluated at compile time.
-    int result = product(x, y); // this is correct because the result can be evaluated at runtime, even though the function is constexpr. 
+    int result = product(x, y); // this is correct because the result can be evaluated at runtime, even though the function is constexpr, and the result can be used in contexts where constant expressions are not required.
     cout << result << endl;
     return 0;
 }
