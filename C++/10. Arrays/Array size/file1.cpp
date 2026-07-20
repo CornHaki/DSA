@@ -11,9 +11,9 @@
 using namespace std;
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
-    for(int i = 0; i < arr.size(); i++) { // this is wrong because arr is an array, not a vector, and arrays do not have a size() method. Instead, we can use sizeof(arr) / sizeof(arr[0]) to get the number of elements in the array.
-        cout << arr[i] << " ";
-    }
+    // for(int i = 0; i < arr.size(); i++) { // this is wrong because arr is an array, not a vector, and arrays do not have a size() method. Instead, we can use sizeof(arr) / sizeof(arr[0]) to get the number of elements in the array.
+    //     cout << arr[i] << " ";
+    // }
 
     int arr1[5] = {1, 2, 3, 4, 5};
     for(int i = 0; i < sizeof(arr1) / sizeof(arr1[0]); i++) { // this is correct because sizeof(arr1) / sizeof(arr1[0]) gives the number of elements in the array, which is 5 in this case.
