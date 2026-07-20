@@ -10,7 +10,7 @@ int main() {
     };
     int hits = 0;
     int turns = 0;
-    while (hits < 4) {
+    while (hits < 5) { // The game continues until all 5 ships are hit
         int row, column;
         cout << "Selecting coordinates (row, column) to attack (0-3): "<< endl;
         cout << "Enter row(0-3): ";
