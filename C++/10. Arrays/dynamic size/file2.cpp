@@ -12,5 +12,11 @@ int main() {
     for (string car : cars){
         cout << car << endl;
     }
+
+    cout << endl;
+    cars.push_back("xyz");
+    for(int a : cars){
+        cout << a << endl;
+    }
     return 0;
 }
