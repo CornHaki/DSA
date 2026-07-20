@@ -15,7 +15,7 @@ int main() {
 
     cout << endl;
     cars.push_back("xyz");
-    for(int a : cars){
+    for(string a : cars){
         cout << a << endl;
     }
     return 0;
