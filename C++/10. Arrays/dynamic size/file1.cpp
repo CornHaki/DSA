@@ -14,6 +14,11 @@ int main() {
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
+    arr.push_back(10); // adding an element to the end of the array
+    cout << "The elements of the array after adding an element are: ";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " "; 
+    }
     cout << endl;
     return 0;
 }
