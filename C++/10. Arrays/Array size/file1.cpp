@@ -8,16 +8,29 @@
 // .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size.
 // sizeof() operator is only applicable to arrays with a fixed size known at compile time, and it cannot be used to determine the size of dynamically allocated arrays or pointers, but .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size, and .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size.
 #include <iostream>
+#include <array>
+#include <vector>
 using namespace std;
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
-    for(int i = 0; i < arr.size(); i++) { // this is wrong because arr is an array, not a vector, and arrays do not have a size() method. Instead, we can use sizeof(arr) / sizeof(arr[0]) to get the number of elements in the array.
-        cout << arr[i] << " ";
-    }
-
+    // for(int i = 0; i < arr.size(); i++) { // this is wrong because arr is an array, not a vector, and arrays do not have a size() method. Instead, we can use sizeof(arr) / sizeof(arr[0]) to get the number of elements in the array.
+    //     cout << arr[i] << " ";
+    // }
+    cout << endl;
     int arr1[5] = {1, 2, 3, 4, 5};
     for(int i = 0; i < sizeof(arr1) / sizeof(arr1[0]); i++) { // this is correct because sizeof(arr1) / sizeof(arr1[0]) gives the number of elements in the array, which is 5 in this case.
         cout << arr1[i] << " ";
     }
+    cout << endl;
+    array <int, 5> arr2 = {1, 2, 3, 4, 5};
+    for(int i = 0; i < arr2.size(); i++) { // this is correct because arr2 is a std::array, which has a size() method that returns the number of elements in the array, which is 5 in this case.
+        cout << arr2[i] << " ";
+    }
+    cout << endl;
+    vector <int> arr3 = {1, 2, 3, 4, 5};
+    for(int i = 0; i < arr3.size(); i++) { // this is correct because arr3 is a std::vector, which has a size() method that returns the number of elements in the vector, which is 5 in this case.
+        cout << arr3[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
