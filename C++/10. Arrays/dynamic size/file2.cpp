@@ -7,5 +7,10 @@ int main() {
     for(int i = 0; i < cars.size(); i++){
         cout << cars[i] << endl;
     }
+
+    cout << "Using for-each loop:" << endl;
+    for (string car : cars){
+        cout << car << endl;
+    }
     return 0;
 }
