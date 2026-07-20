@@ -11,7 +11,7 @@ int main() {
     int turns = 0;
     while (hits < 4) {
         int row, column;
-        cout << "Selecting coordinates (row, column) to attack (0-3): ";
+        cout << "Selecting coordinates (row, column) to attack (0-3): "<< endl;
         cout << "Enter row(0-3): ";
         cin >> row;
         cout << "Enter column(0-3): ";
