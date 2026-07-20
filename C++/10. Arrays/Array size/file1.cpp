@@ -6,7 +6,7 @@
 // This method is also not applicable for arrays passed to functions, as they decay to pointers and lose their size information.
 // sizeof() operator can be used to determine the size of an array at compile time, but it cannot be used to determine the size of a dynamically allocated array or a pointer.
 // .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size.
-// sizeof() operator is only applicable to arrays with a fixed size known at compile time, and it cannot be used to determine the size of dynamically allocated arrays or pointers, but .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size, and .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size, and .size() method can also be used to determine the size of a fixed-size array at runtime, as long as the array is not passed to a function or decayed to a pointer.
+// sizeof() operator is only applicable to arrays with a fixed size known at compile time, and it cannot be used to determine the size of dynamically allocated arrays or pointers, but .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size, and .size() method can be used to determine the size of a vector at runtime, as vectors are dynamic arrays that can grow or shrink in size.
 #include <iostream>
 using namespace std;
 int main() {
