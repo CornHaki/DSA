@@ -1,5 +1,4 @@
-// So basically this is a simple boat game where the player has to guess the coordinates of the ships on a 4x4 grid. The ships are represented by 1s in the `ships` array, and the player inputs row and column coordinates to attack. The game continues until all ships are hit, and it keeps track of the number of hits and turns taken.    
-
+// So basically this is a simple boat game where the player has to guess the coordinates of the ships on a 4x4 grid. The ships are represented by 1s in the `ships` array, and the player inputs row and column coordinates to attack. The game continues until all ships are hit, and it keeps track of the number of hits and turns taken.
 #include <iostream>
 using namespace std;
 int main() {
