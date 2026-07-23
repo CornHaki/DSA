@@ -1,7 +1,6 @@
 // Example of Structure in C++
-
-
 #include <iostream>
+#include <string>git 
 using namespace std;
 
 struct Student {
