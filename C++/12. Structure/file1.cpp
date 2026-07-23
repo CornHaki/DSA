@@ -1,4 +1,4 @@
-
+// Example of Structure in C++
 
 
 #include <iostream>
