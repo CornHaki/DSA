@@ -1,1 +1,29 @@
 // member function is the function which is defined inside the structure. It can access the members of the structure and perform operations on them. In this example, we define a member function called 'display' that prints the values of the members of the structure to the console. We then create an instance of the structure and call the member function to display the values of its members.
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Student {
+    string name;
+    int age;
+    float gpa;
+
+    // Member function to display the values of the members of the structure. 
+    void display() {
+        cout << "Student Name: " << name << endl;
+        cout << "Student Age: " << age << endl;
+        cout << "Student GPA: " << gpa << endl;
+    }
+};
+
+int main() {
+    Student student1;
+    student1.name = "John Doe";
+    student1.age = 20;
+    student1.gpa = 3.5;
+
+    // Calling the member function to display the values of the members. 
+    student1.display();
+
+    return 0;
+}
