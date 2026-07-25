@@ -1,7 +1,7 @@
 // Example of Structure in C++
+// Structure is a user-defined data type that allows grouping of variables of different types under a single name. It is used to represent a record.
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 struct Student {
