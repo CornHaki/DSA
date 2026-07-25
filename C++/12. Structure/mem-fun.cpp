@@ -1,1 +1,1 @@
-//
+// member function of structure 
