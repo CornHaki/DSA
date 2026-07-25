@@ -1,4 +1,3 @@
-
 // Structure is a user-defined data type that allows grouping of variables of different types under a single name. It is used to represent a record. 
 // In this example, we define a structure called 'Student' that contains three members: name, age, and gpa. We then create an instance of the structure and assign values to its members. Finally, we print the values of the members to the console.
 // Structures are useful for organizing related data and can be used to create complex data types. Structures in C++ can also contain functions, but in this example, we are only using data members. 
