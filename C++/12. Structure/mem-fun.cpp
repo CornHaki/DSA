@@ -15,7 +15,6 @@ struct Student {
     }
 };
 int main() {
-    
     // Creating an instance of the structure and assigning values to its members.
     Student student1;
     student1.name = "John Doe";
