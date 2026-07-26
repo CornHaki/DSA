@@ -20,7 +20,6 @@ int main() {
     student1.name = "John Doe";
     student1.age = 20;
     student1.gpa = 3.5;
-
     // Calling the member function to display the values of the members. 
     student1.display();
 
