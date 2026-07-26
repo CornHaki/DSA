@@ -7,6 +7,7 @@ struct Student {
     string name;
     int age;
     float gpa;
+
     // Member function to display the values of the members of the structure. 
     void display() {
         cout << "Student Name: " << name << endl;
