@@ -1,4 +1,5 @@
 // member function is the function which is defined inside the structure. It can access the members of the structure and perform operations on them. In this example, we define a member function called 'display' that prints the values of the members of the structure to the console. We then create an instance of the structure and call the member function to display the values of its members.
+// member function example: 
 #include <iostream>
 #include <string>
 using namespace std;
