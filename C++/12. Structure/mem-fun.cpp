@@ -14,7 +14,6 @@ struct Student {
         cout << "Student GPA: " << gpa << endl;
     }
 };
-
 int main() {
     // Creating an instance of the structure and assigning values to its members.
     Student student1;
