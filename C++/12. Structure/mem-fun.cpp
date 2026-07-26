@@ -22,6 +22,5 @@ int main() {
     student1.gpa = 3.5;
     // Calling the member function to display the values of the members. 
     student1.display();
-
     return 0;
 }
