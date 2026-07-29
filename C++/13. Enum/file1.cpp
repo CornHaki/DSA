@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
-
 enum level {
-    low = 1,
+    low,
     medium,
     high
 };
