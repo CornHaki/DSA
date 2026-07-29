@@ -12,7 +12,7 @@ int main(){
             cout << "low" << endl;
             break;
         case 2:
-            cout << "medium << endl;
+            cout << "medium" << endl;
             break;
         case 3:
             cout << high << endl;
