@@ -3,7 +3,7 @@ enum level {
     low = 1,
     medium,
     high
-}
+};
 int main(){
     enum level var = medium;
     switch(var){
