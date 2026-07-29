@@ -15,7 +15,7 @@ int main(){
             cout << "medium" << endl;
             break;
         case 3:
-            cout << high << endl;
+            cout << "high << endl;
             break;
     }
     return 0;
